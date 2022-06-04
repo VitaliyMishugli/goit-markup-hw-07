@@ -80,6 +80,7 @@ form[name='application-form'] {
     &:focus {
         outline: none;
         border-color: $accent-text-color;
+        cursor: pointer;
     }
 
     &:hover + .form-field__icon,
@@ -115,8 +116,6 @@ textarea {
     margin-bottom: 30px;
 }
 
-
-
 .checkbox__text a {
     color: $accent-text-color;
 }
@@ -139,6 +138,7 @@ textarea {
     &:hover,
     &:focus {
         transform: scale(105%, 105%);
+        cursor: pointer;
     }
 }
 

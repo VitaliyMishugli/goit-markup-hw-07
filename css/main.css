@@ -322,6 +322,10 @@ address {
   fill: #2196F3;
 }
 
+.modal-close:hover, .modal-close:focus {
+  cursor: pointer;
+}
+
 .modal-close__icon {
   fill: currentColor;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -405,6 +409,7 @@ form[name='application-form'] {
 .form-field__input:hover, .form-field__input:focus {
   outline: none;
   border-color: #2196F3;
+  cursor: pointer;
 }
 
 .form-field__input:hover + .form-field__icon,
@@ -460,6 +465,7 @@ textarea {
 .application-button:hover, .application-button:focus {
   -webkit-transform: scale(105%, 105%);
           transform: scale(105%, 105%);
+  cursor: pointer;
 }
 
 input[type="checkbox"] {
@@ -541,7 +547,6 @@ input[type="checkbox"]:focus ~ .form-field__icon.square {
   background-size: cover;
   text-align: center;
   padding-top: 200px;
-  padding-bottom: 200px;
   margin: 0 auto;
   max-width: 1600px;
   height: 600px;
@@ -569,11 +574,11 @@ input[type="checkbox"]:focus ~ .form-field__icon.square {
 .button__order:hover, .button__order:focus {
   -webkit-transform: scale(105%, 105%);
           transform: scale(105%, 105%);
+  cursor: pointer;
 }
 
 .features {
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 /* Features-list */
@@ -760,7 +765,7 @@ input[type="checkbox"]:focus ~ .form-field__icon.square {
   letter-spacing: 0.03em;
   color: #757575;
   text-align: center;
-  margin-bottom: 28px;
+  margin-bottom: 16px;
 }
 
 .team-member:last-child {
@@ -1231,6 +1236,7 @@ a.footer-address {
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   color: #FFFFFF;
   background-color: #2196F3;
+  cursor: pointer;
 }
 
 /* Projects-cards */
